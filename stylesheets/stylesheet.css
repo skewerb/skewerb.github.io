@@ -216,7 +216,7 @@ hr {
 .btn:hover {
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
-
+/*
 .btn .icon {
   display: inline-block;
   width: 16px;
@@ -229,6 +229,8 @@ hr {
   opacity: 0.6;
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
+
+*/
 
 /* Links
    a, a:hover, a:visited
