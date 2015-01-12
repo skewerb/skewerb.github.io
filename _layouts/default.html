@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+  <link rel="stylesheet" type="text/css" href="/../stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="/../stylesheets/pygment_trac.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="/../stylesheets/print.css" media="print">
+
+  <title>{{ page.title }}</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div id="profile">
+        <img src="/images/self.jpg" alt="selfie" style="width:151px;height:113px">
+        <h1>Steven Yang</h1>
+        <h2>Programmer Designer 3D Artist</h2>
+      </div>
+
+      <section id="downloads">
+        <a href="/index.html" class="btn"><span class="icon"></span>Home</a>
+        <a href="https://github.com/skewerb" class="btn"><span class="icon"></span>GitHub</a>
+        <a href="https://twitter.com/skewerb" class="btn"><span class="icon"></span>Twitter</a>
+        <a href="mailto:steven@skewerb.com" class="btn"><span class="icon"></span>Contact</a>
+      </section>
+    </div>
+  </header>
+
+  <div class="container">
+    <section id="main_content">
+      <div id="recent">
+        <h6>Recent Posts</h6>
+        <section id="posts">
+          <ul>
+            {% for post in site.posts do %}
+            <li>
+              {{ site.time | date_to_long_string }} <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
+      <section id="post_content">
+      {{ content }}
+      </section>
+    </section>
+    </body>
+    </html>
