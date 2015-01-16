@@ -38,7 +38,7 @@
           <ul>
             {% for post in site.posts do %}
             <li>
-              {{ site.time | date_to_long_string }} <a href="{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
             {% endfor %}
           </ul>
