@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Unreal Gamejam - Day One
+title: Unreal Gamejam
 ---
 
-#Unreal Gamejam - Day One
-
+#Unreal Gamejam 
 I'm about to start working on my project for the [Unreal Engine 4 gamejam](https://forums.unrealengine.com/showthread.php?56004-JANUARY-GAME-JAM-Theme-BACK-TO-SQUARE-ONE). It
 seems like they have it every month, so I'm hoping this becomes a a regular thing
 for me to put my gamedev skills to use! The theme for this one is "Back to Square One".
