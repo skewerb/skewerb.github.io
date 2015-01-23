@@ -21,7 +21,7 @@ to make a large amount of games in a relatively short amount of time.
 ##How It Is Now
 I installed the most recent version of cocos2dx a few days ago, and I gotta say; they either made the process more streamlined,
 or I've gotten way better at setting things up. In about 10 minutes, I already had a project up to play around with. I read the
-official guide to refresh on the core concepts of the framework. After that I was able to create a basic template so i wouldn't
+official guide to refresh on the core concepts of the framework. After that I was able to create a [basic template](https://github.com/skewerb/Cocos2dx_BZS_Template) so i wouldn't
 need to start completely from scratch everytime start a new project. The new changes they made since I started were very 
 noticeable. The added C++11 features really made code look a lot cleaner. I was able to get a lot done in a really short amount
 of time.
