@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: UCI GGJ - I'm Getting Fat
 ---
 
