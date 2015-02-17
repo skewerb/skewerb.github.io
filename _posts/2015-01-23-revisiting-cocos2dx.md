@@ -3,7 +3,6 @@ layout: post
 title: Revisiting Coco2dx
 ---
 
-#Revisiting Cocos2dx
 It's been almost a year since I really seriously worked on [cocos2dx](http://www.cocos2d-x.org/). Cocos2d was perhaps the first real game framework I worked with.
 Going through the process of setting up the work enviroment and actually making games taught me a heck of a lot about software
 development. After dappling with other engines like Unity and Unreal, I decided to take a look again at the old framework I started

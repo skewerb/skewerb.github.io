@@ -3,8 +3,6 @@ layout: post
 title: Unreal Gamejam Post-mortem
 ---
 
-#Unreal Gamejam Post-mortem
-
 I just completed my [project](https://www.dropbox.com/sh/8jncnv83b1r8usp/AAAxbA5c302zr_H1oFXNHFtra?dl=0) for the Unreal Gamejam! That last day
 was pretty rough because I had so many bugs I put off from the previous days. I had to cut out a lot of the things I wanted to add
 just so the game could be presentable. I was able to get the core gameplay working, but that was it. Finishing the proper gameloop

@@ -3,7 +3,6 @@ layout: post
 title: SBHacks Post-mortem
 ---
 
-#SBHacks Post-mortem
 So this past weekend, I went to [SBHacks](http://www.ucsbhacks.com), a hackathon that was held at UCSB. It's been years since I've been
 in that area. I used to go pretty frequently back in my late teens. Going back and seeing all the old places
 I used to frequent with my buddies gave me a pretty big nostalgia bomb. The city itself doesn't look it

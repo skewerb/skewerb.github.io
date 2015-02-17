@@ -3,8 +3,6 @@ layout: post
 title: The Dawn Before SBHacks
 ---
 
-#The Dawn Before SBHacks
-
 So tomorrow I'll be going to [SBHacks](http://www.ucsbhacks.com/), a hackathon at Santa Barbara.
 It's been years since I've been to Santa Barbara. I had some of my best
 memories there when I was younger. Now, years later, I'm going back to

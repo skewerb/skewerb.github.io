@@ -3,7 +3,6 @@ layout: post
 title: UCI GGJ - I'm Getting Fat
 ---
 
-#UCI GGJ - I'm Getting Fat
 So this past weekend, I attended the Global Gamejam hosted at [UCI](http://globalgamejam.org/2015/jam-sites/uc-irvine). It was
 incredibly fun! It was great working with people who all shared the same interest
 in making games. Everyone had their own ideas to contribute and by the end of it,

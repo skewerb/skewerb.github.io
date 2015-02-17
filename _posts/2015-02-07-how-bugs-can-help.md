@@ -3,8 +3,6 @@ layout: post
 title: How Bugs Can Help
 ---
 
-#How Bugs Can Help
-
 I'm writing this now because I literally spent the entire day trying to fix one
 bug that affected the [Blast Zone Studios](http://blastzonestudios.com) website.
 After I finally figured out how to fix it, I began to thinking about bugs in general.

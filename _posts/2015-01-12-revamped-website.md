@@ -2,7 +2,6 @@
 layout: post
 title: Revamped Website
 ---
-# Revamped Website
 
 After a long time coming, I've finally gotten around to updating my website.
 Before, I was using [about.me](http://about.me). The service looked pretty nice,
