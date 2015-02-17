@@ -3,10 +3,55 @@ layout: default
 title: Steven Yang
 ---
 
-<p>Check out <a href="http://blastzonestudios.com">Blast Zone Studio's website</a> for my work examples</p>
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="author">
+    <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+    <br>
+    <!-- Look the author details up from the site config. -->
+    {% assign author = site.data.authors[post.author] %}
 
-<p>Helped make <a href="http://globalgamejam.org/2015/games/robot-rescue">Robot Rescue</a> at <a href="http://globalgamejam.org/2015/jam-sites/uc-irvine">UCI's Global Gamejam</a></p>
+    <!-- Output author details if some exist. -->
+    {% if author %}
+      <span>
+      <!-- Personal Info. -->
+      By <a href="{{ author.twitter }}" target="_blank">{{ author.name }}</a>
+      <img class="img-responsive img-rounded" alt="20x20" src="{{ relative }}/{{ author.pic }}" style="width:20px; height: 20px; float: left; margin-right: 5px;">
+      </span>
+    {% endif %}
+  </p>
+  <div class="content">
+    {{ post.excerpt }}
+    <p>(<a href="{{ post.url }}#disqus_thread"></a>) <a href="{{ post.url }}">Read more &raquo</a></p>
+  </div>
+  <hr>
+{% endfor %}
 
-<p>Helped make <a href="http://sbhacks.challengepost.com/submissions/32329-hivepoll-me">Hivepoll.me</a> at <a href="http://www.ucsbhacks.com/">SBHacks</a> : Live website <a href="http://www.hivepoll.me">here</a></p>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Prev</span>
+  {% endif %}
+  <span class="page_number ">: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
 
-<p>Won 3rd place at <a href="http://www.hackcc.org/">HackCC</a> with <a href="http://challengepost.com/software/sheet-reader">Sheet Reader</a></p>
+<script type="text/javascript">
+/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'skewerb'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>

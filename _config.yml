@@ -3,3 +3,6 @@ description: Steven Yang's Website
 author:
   name: Steven Yang
   email: steven@skewerb.com
+
+paginate: 3
+paginate_path: 'page:num'
