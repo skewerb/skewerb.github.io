@@ -58,7 +58,7 @@
         <h6>Latest Posts</h6>
         <section id="posts">
           <ul>
-            {% for post in site.posts do %}
+            {% for post in site.posts limit:8 %}
             <li>
               {{post.date | date_to_string}} <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
